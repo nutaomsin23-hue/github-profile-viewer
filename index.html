@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header & Search -->
+        <header>
+            <h1>GitHub Profile Viewer</h1>
+            <p>Search for a GitHub user</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Enter GitHub username...">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- กล่องข้อความสำหรับ Error / Loading -->
+        <div id="message-container" class="message hidden"></div>
+
+        <!-- Profile Card -->
+        <main id="profile-container" class="profile-card hidden">
+            <img src="" alt="User Avatar" class="avatar">
+            
+            <div class="profile-info">
+                <h2 class="name"></h2>
+                <p class="username"></p>
+                <p class="bio"></p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-value"></span>
+                        <span class="stat-label">Repos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value"></span>
+                        <span class="stat-label">Followers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value"></span>
+                        <span class="stat-label">Following</span>
+                    </div>
+                </div>
+
+                <!-- 🔴 ส่วนที่เพิ่มเข้ามาใน Phase 6: กล่องสำหรับใส่ Repository -->
+                <div id="repos-container" class="repos-list"></div>
+
+                <a href="#" class="github-btn" target="_blank">View GitHub Profile</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
