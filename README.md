@@ -3,7 +3,7 @@
 A responsive and clean web application that allows users to search for GitHub profiles and view their public data using the GitHub REST API. This project was created to demonstrate front-end development skills and API integration.
 
 ## 📸 Screenshot
-![GitHub Profile Viewer Screenshot](Screenshot 2026-08-16 044839.jpg) <!-- เปลี่ยนชื่อไฟล์ภาพให้ตรงกับของคุณ -->
+![GitHub Profile Viewer Screenshot](screenshot.jpg) <!-- เปลี่ยนชื่อไฟล์ภาพให้ตรงกับของคุณ -->
 
 ## ✨ Features
 - Search for any GitHub user by username.
