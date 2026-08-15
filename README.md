@@ -22,7 +22,7 @@ A responsive and clean web application that allows users to search for GitHub pr
 - **GitHub REST API**: Data fetching via the `fetch()` API.
 
 ## 🚀 Live Demo
-[Link to your Live Demo] <!-- เดี๋ยวเราจะมาใส่ลิงก์นี้ในขั้นตอนถัดไป -->
+[https://nutaomsin23-hue.github.io/github-profile-viewer/] <!-- เดี๋ยวเราจะมาใส่ลิงก์นี้ในขั้นตอนถัดไป -->
 
 ## 📂 Project Structure
 - `index.html`: The main HTML document.
